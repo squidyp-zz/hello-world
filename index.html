@@ -8,16 +8,25 @@
 <body>
 <h1> that doesn't end. </h1>
 
-
-&#176;
-
+<span id="number">42</span>
 
 
+<div id="sperate">---------------------</div>
+
+<div id="output"></div>
 
 
 
+<script>
+//pulling information from html
+var tagString = document.getElementById("number").innerHTML;
+var idString = document.getElementById("output");
 
+console.log(tagString);
 
+idString.innerHTML = tagString;
+
+</script>
 
 
 </body>
